@@ -10,18 +10,18 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- font family -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap"
-        rel="stylesheet"> -->
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
-    <!-- <style>
+    <style>
         .font {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Poppins';
         }
-    </style> -->
+    </style>
 </head>
 
 <body class="font">
@@ -30,210 +30,285 @@
 
         <!-- Banner -->
 
-        <!-- Popular Airlines section -->
-        <div class="max-w-7xl mx-auto">
-            <h2 class="font-bold text-2xl mb-10">Popular Airlines</h2>
-            <div class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-[10px] lg:gap-5">
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/biman.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Biman Bangladesh <br> Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+
+        <section class="max-w-7xl mx-auto">
+            <!-- Popular Airlines section -->
+            <div>
+                <h2 class="font-bold text-3xl mb-10 text-center md:text-left">Popular Airlines</h2>
+                <div
+                    class=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-between items-center gap-[10px] lg:gap-5 pl-10 md:p-0 mb-20">
+
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/biman.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-semibold mt-1">Biman Bangladesh <br> Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>4</h3>
+                                </div>
+                                <p><span class="text-gray-400">(783 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/emirat.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Emirates</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>5</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/emirat.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Emirates</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 753 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/turkish.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Turkish Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>5</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/turkish.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Turkish Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 753 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/mal.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Malaysia Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/mal.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Malaysia Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/singapur.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Singapore Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/singapur.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Singapore Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/mal.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Malaysia Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/mal.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Malaysia Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/biman.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Biman Bangladesh <br> Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/biman.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-semibold mt-1">Biman Bangladesh <br> Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>4</h3>
+                                </div>
+                                <p><span class="text-gray-400">(783 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/amarika.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">American Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/amarika.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-semibold mt-1">American Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>4</h3>
+                                </div>
+                                <p><span class="text-gray-400">(783 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/emirat.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Emirates</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>5</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/emirat.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Emirates</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 953 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/biman.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Biman Bangladesh <br> Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/biman.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-semibold mt-1">Biman Bangladesh <br> Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>4</h3>
+                                </div>
+                                <p><span class="text-gray-400">(783 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/mal.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Malaysia Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/mal.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Malaysia Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
-                </div>
 
-                <div class="flex items-center gap-4">
-                    <div>
-                        <img class="" src="./images/turkish.png" alt="">
-                    </div>
-                    <div>
-                        <h3 class="text-blue-600 font-bold">Turkish Airlines</h3>
-                        <div class="md:flex gap-2 mt-1">
-                            <div class="flex items-center gap-2">
-                                <img class="w-4 h-" src="./images/star.png" alt="">
-                                <h3>4</h3>
+                    <div class="md:flex items-center md:gap-2 gap-4">
+                        <div>
+                            <img class="" src="./images/turkish.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="text-blue-600 font-bold mt-1">Turkish Airlines</h3>
+                            <div class="flex gap-1 mt-1">
+                                <div class="flex items-center gap-2">
+                                    <img class="w-4 h-" src="./images/star.png" alt="">
+                                    <h3>5</h3>
+                                </div>
+                                <p><span class="text-gray-400">(753 review)</span></p>
                             </div>
-                            <p><span class="text-gray-400">( 783 review )</span></p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Testimonials section -->
-        <div>
+            <!-- Testimonials section -->
+            <div class="mb-20">
+                <h2 class="font-bold text-3xl mb-10 text-center md:text-left">Testimonials</h2>
+            </div>
 
-        </div>
+            <!-- Travel Blog section -->
+            <div class="mb-20">
+                <h2 class="font-bold text-3xl mb-10 text-center md:text-left">Travel Blog</h2>
 
-        <!--  -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 items-center justify-between">
+                    <div class="card card-compact m-5 bg-base-100 shadow-xl ">
+                        <figure><img src="./images/blog 1.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 items-center">
+                                <h2 class="text-[#FFB700] font-medium">Work and Travel</h2>
+                                <h2 class="font-medium">16 September 23</h2>
+                            </div>
+                            <p class="text-lg font-bold">Embracing The Digital Nomad Lifestyle The Digital Nomad Thr...
+                            </p>
+                            <hr>
+                            <div class="flex justify-between items-center mb-5">
+                                <div class="flex gap-3 text-lg items-center">
+                                    <img class="w-12 h-12" src="./images/b p 1.png" alt="">
+                                    <h2>Ys Stafen</h2>
+                                </div>
+                                <h2 class="text-[#FFB700] font-medium">Read More >></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-compact m-5 bg-base-100 shadow-xl ">
+                        <figure><img src="./images/blog 2.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 items-center">
+                                <h2 class="text-[#FFB700] font-medium">Historical</h2>
+                                <h2 class="font-medium">14 September 23</h2>
+                            </div>
+                            <p class="text-lg font-bold">Historical Journeys: Stepping Back in Time Through Travel
+                            </p>
+                            <hr>
+                            <div class="flex justify-between items-center mb-5">
+                                <div class="flex gap-3 text-lg items-center">
+                                    <img class="w-12 h-12" src="./images/b p 2.png" alt="">
+                                    <h2>Aria Montague</h2>
+                                </div>
+                                <h2 class="text-[#FFB700] font-medium">Read More >></h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-compact m-5 bg-base-100 shadow-xl ">
+                        <figure><img src="./images/blog 3.png" alt="Shoes" /></figure>
+                        <div class="card-body">
+                            <div class="flex gap-4 items-center">
+                                <h2 class="text-[#FFB700] font-medium">Sustainable Tourism</h2>
+                                <h2 class="font-medium">10 September 23</h2>
+                            </div>
+                            <p class="text-lg font-bold">Sustainable Tourism: Preserving the Planet While Seeing It All
+                            </p>
+                            <hr>
+                            <div class="flex justify-between items-center mb-5">
+                                <div class="flex gap-3 text-lg items-center">
+                                    <img class="w-12 h-12" src="./images/b p 3.png" alt="">
+                                    <h2>Elara Thorne</h2>
+                                </div>
+                                <h2 class="text-[#FFB700] font-medium">Read More >></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- email section -->
+
+
+        </section>
     </header>
 </body>
 
