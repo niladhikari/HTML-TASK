@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEA</title>
-    <link rel="shortcut icon" href="./images/graphic-designer.png" type="image/x-icon">
+    <title>AirBook</title>
+    <link rel="shortcut icon" href="./images/airplane.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -26,9 +26,316 @@
 
 <body class="font">
     <header class="">
-        <!-- Navbar -->
+        <nav class="bg-base-100 fixed top-0 w-full border-b z-50 px-5 lg:px-16 md:px-5">
+            <div class="max-w-7xl mx-auto">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 w-52">
+                                <li><a>Blog</a></li>
+                                <li>
+                                    <a>Offer</a>
+                                </li>
+                                <li><a>Airlines</a></li>
+                                <li><a>About</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <img class="w-10"
+                                src="https://i.ibb.co/48tX4zH/423619515-1650292615792403-2164946208741840163-n.png"
+                                alt="" />
 
-        <!-- Banner -->
+                            <h2 class="text-2xl font-bold text-[#ffb700]">
+                                Air<span class="text-blue-600">Book</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-[18px] font-semibold">
+                            <li><a>Blog</a></li>
+                            <li>
+                                <a>Offer</a>
+                            </li>
+                            <li><a>Airlines</a></li>
+                            <li><a>About</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <a class="py-3 px-8 bg-[#016ce4] hover:bg-blue-500 text-white rounded-lg">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--banner-->
+        <div
+            class="background w-full lg:h-[600px] md:h-[380px] h-[700px] lg:pt-32 md:pt-28 pt-32 lg:px-16 md:px-5 px-2">
+            <div class="lg:mt-28 md:mt-10 lg:mb-6 md:mb-2 mb-5">
+                <h2 class="lg:text-5xl md:text-3xl text-4xl lg:text-left md:text-left text-center font-bold text-white">
+                    Welcome to <span class="text-[#1f7ae1]">AirBook</span>
+                </h2>
+            </div>
+
+            <div class="bg-white lg:p-10 md:p-5 p-3 rounded-lg">
+                <div class="flex items-center gap-4 justify-between">
+                    <div class="flex lg:gap-6 md:gap-3 gap-2 items-center">
+                        <div>
+                            <div
+                                class="flex items-center lg:gap-2 md:gap-2 gap-1 bg-[#ebf0f5] lg:w-[120px] md:w-[110px] w-[87px] rounded-lg p-2">
+                                <img class="lg:w-7 md:w-4 w-3"
+                                    src="https://i.ibb.co/d2nsSFT/423472533-740086228226885-5053513746508841200-n.png"
+                                    alt="" />
+                                <span class="lg:text-sm md:text-sm text-xs">One Way</span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="bg-blue-500 lg:w-[130px] md:w-[130px] w-[100px] rounded-lg items-center gap-2 flex p-2">
+                            <div class="lg:w-7 md:w-5 w-3 lg:h-7 md:h-5 h-3 rounded-full border-2">
+                                <div
+                                    class="lg:w-4 md:w-1 w-1 lg:h-4 md:h-2 h-1 bg-[#cce2fa] rounded-full m-auto lg:mt-1 md:mt-1 mt-[2px]">
+                                </div>
+                            </div>
+                            <span class="lg:text-sm md:text-sm text-xs">Round trip</span>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-2">
+                        <div
+                            class="flex items-center gap-2 bg-[#ebf0f5] lg:w-[120px] md:w-[120px] w-120px p-2 lg:h-12 md:h-10 rounded-lg">
+                            <span class="lg:text-sm md:text-sm text-[10px]">1 Traveller
+                            </span>
+                            <img class="lg:w-4 md:w-3 w-2"
+                                src="https://i.ibb.co/18ywQW5/431064691-425954673207671-5500369409757627823-n.png"
+                                alt="" />
+                        </div>
+
+                        <div
+                            class="flex items-center gap-2 bg-[#ebf0f5] rounded-lg lg:w-[130px] md:w-[130px] w-[80px] p-2">
+                            <span class="lg:text-sm md:text-sm text-[10px]">Economy </span>
+                            <img class="lg:w-4 md:w-3 w-2"
+                                src="https://i.ibb.co/18ywQW5/431064691-425954673207671-5500369409757627823-n.png"
+                                alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:flex lg:gap-2 md:gap-1 mt-5">
+                    <div class="border-2 w-[350px] lg:p-2 md:p-2 p-2 rounded-lg">
+                        <div class="flex items-center lg:gap-2 md:gap-2 gap-3">
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">DAC</h2>
+                            </div>
+
+                            <div>
+                                <img class="h-10 w-1"
+                                    src="https://i.ibb.co/ZGrSBQ1/430891526-979449990216239-5048104969932804416-n.png"
+                                    alt="" />
+                            </div>
+
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">Dhaka</h2>
+                                <p class="lg:text-xs md:text-[7px] lg:font-normal md:font-medium">
+                                    Hazrat Shahjalal Internatio
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="border-2 lg:w-[325px] md:w-[325px] w-[350px] lg:p-2 md:p-2 p-2 rounded-lg lg:mt-0 md:mt-0 mt-5">
+                        <div class="flex items-center lg:gap-2 md:gap-2 gap-2">
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">Cxb</h2>
+                            </div>
+
+                            <div>
+                                <img class="h-10 w-1"
+                                    src="https://i.ibb.co/ZGrSBQ1/430891526-979449990216239-5048104969932804416-n.png"
+                                    alt="" />
+                            </div>
+
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">Cox’s Bazar</h2>
+                                <p class="lg:text-xs md:text-[7px] lg:font-normal md:font-medium">
+                                    Cox’s Bazar international
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-2 lg:w-[320px] md:w-[320px] w-[350px] p-2 rounded-lg lg:mt-0 md:mt-0 mt-5">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">03</h2>
+                            </div>
+
+                            <div>
+                                <img class="h-10 w-1"
+                                    src="https://i.ibb.co/ZGrSBQ1/430891526-979449990216239-5048104969932804416-n.png"
+                                    alt="" />
+                            </div>
+
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">octobee</h2>
+                                <p class="lg:text-xs md:text-[7px] lg:font-normal md:font-medium">
+                                    tuesday, 2023
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-2 lg:w-[320px] md:w-[320px] w-[350px] p-2 rounded-lg lg:mt-0 md:mt-0 mt-5">
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">05</h2>
+                            </div>
+
+                            <div>
+                                <img class="h-10 w-1"
+                                    src="https://i.ibb.co/ZGrSBQ1/430891526-979449990216239-5048104969932804416-n.png"
+                                    alt="" />
+                            </div>
+
+                            <div>
+                                <h2 class="lg:text-base md:text-xs">october</h2>
+                                <p class="lg:text-xs md:text-[7px] lg:font-normal md:font-medium">
+                                    tuesday, 2023
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="bg-[#ffb700] w-[100px] p-2 rounded-lg flex justify-center items-center lg:mt-0 md:mt-0 mt-5">
+                        <img class="w-6"
+                            src="https://i.ibb.co/yy2wZ0X/423619549-378574818294108-6878619370784468841-n.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Destinations section -->
+        <div class="lg:px-20 md:px-10 mx-5 mt-16 mb-10">
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold">Featured Destinations</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-3">
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="https://i.ibb.co/NtT81Ww/Rectangle-181.png" alt="" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="font-semibold">
+                            Stopover opportunity in İstanbul with Turkish Airlines
+                        </p>
+                        <div class="card-actions justify-center mt-4">
+                            <button class="px-12 py-2 font-medium rounded-lg hover:bg-yellow-500 bg-[#ffb700]">
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="https://i.ibb.co/g3FSjjV/Rectangle-18-11.png" alt="" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="font-semibold">
+                            Discover the timeless city with Touristanbul of Turkish Airlines
+                        </p>
+                        <div class="card-actions justify-center mt-4">
+                            <button class="px-12 py-2 font-medium rounded-lg hover:bg-yellow-500 bg-[#ffb700]">
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure>
+                        <img src="https://i.ibb.co/KwsybwB/Rectangle-18-22.png" alt="" />
+                    </figure>
+                    <div class="card-body">
+                        <p class="font-semibold">
+                            the best of Abu Dhabi with exclusive Etihad Airways!
+                        </p>
+                        <div class="card-actions justify-center mt-4">
+                            <button class="px-12 py-2 font-medium rounded-lg hover:bg-yellow-500 bg-[#ffb700]">
+                                View More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Deals and Offers section -->
+
+        <div class="lg:px-20 md:px-10 px-5 mt-16 mb-10">
+            <div class="mb-8">
+                <h2 class="text-2xl font-semibold">Deals and Offers</h2>
+            </div>
+
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-3">
+                <div class="card lg:card-side bg-base-100 shadow-xl h-[200px] flex items-center">
+                    <figure>
+                        <img class="h-[200px] w-[440px]"
+                            src="https://i.ibb.co/1M2vjNz/ffb96e0e5c51c764ad1be283b8f88c63.png" alt="" />
+                    </figure>
+                    <div class="text-center lg:p-0 md:p-2 p-2">
+                        <p class="text-[12px] font-medium mb-1">
+                            With bkash payment only
+                        </p>
+                        <p class="text-[#0971e4]">
+                            up to 14% discount on the base fare of domestic flights
+                        </p>
+                    </div>
+                </div>
+                <div class="card lg:card-side bg-base-100 shadow-xl h-[200px] flex items-center">
+                    <figure>
+                        <img class="lg:h-[200px] md:h-[150px] w-[440px]"
+                            src="https://i.ibb.co/KLdFQQ2/58a5cb07596c8390c3c8b8c1b5228f5c.png" alt="" />
+                    </figure>
+                    <div class="text-center lg:p-0 md:p-2 p-2">
+                        <p class="text-[12px] font-medium mb-1">
+                            With bkash payment only
+                        </p>
+                        <p class="text-[#0971e4]">
+                            up to 14% discount on the base fare of domestic flights
+                        </p>
+                    </div>
+                </div>
+                <div class="card lg:card-side bg-base-100 shadow-xl h-[200px] flex items-center">
+                    <figure>
+                        <img class="h-[200px] w-[440px]"
+                            src="https://i.ibb.co/qN9J55f/bd2a194917550c4334c07048753d2361.png" alt="" />
+                    </figure>
+                    <div class="text-center lg:p-0 md:p-2 p-2">
+                        <p class="text-[12px] font-medium mb-1">
+                            With bkash payment only
+                        </p>
+                        <p class="text-[#0971e4]">
+                            up to 14% discount on the base fare of domestic flights
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-6">
+                <div class="flex gap-2">
+                    <div class="w-3 h-3 bg-[#d9d9d9] rounded-full"></div>
+                    <div class="w-3 h-3 bg-[#ffb700] rounded-full"></div>
+                    <div class="w-3 h-3 bg-[#d9d9d9] rounded-full"></div>
+                </div>
+            </div>
+        </div>
 
 
         <section>
@@ -354,9 +661,10 @@
             </div>
 
             <!-- footer section -->
-            <div class=" bg-blue-700 "> 
+            <div class=" bg-blue-700 ">
                 <footer class="max-w-7xl mx-auto text-center md:text-left text-neutral-content md:px-4 lg:px-0">
-                    <div class="grid justify-center md:ml-36 lg:ml-0 md:justify-between md:grid-cols-2 lg:grid-cols-4 py-10 text-neutral-content">
+                    <div
+                        class="grid justify-center md:ml-36 lg:ml-0 md:justify-between md:grid-cols-2 lg:grid-cols-4 py-10 text-neutral-content">
                         <nav class="grid mt-2">
                             <h6 class="footer-title">Address</h6>
                             <p>House- 75 Ka, Main</p>
